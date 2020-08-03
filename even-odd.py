@@ -5,4 +5,8 @@ def IsEven(num):
         return False
 
 n = int(input('Enter number : '))
-print(IsEven(n))
+
+if IsEven(n):
+    print('The number you entered is Even.')
+else:
+    print('The number you entered is Odd.')
