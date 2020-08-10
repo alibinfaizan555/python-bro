@@ -1,0 +1,5 @@
+x = int(input('X : '))
+y = int(input('Y : '))
+c = complex(x,y)
+r = ((x**2)+(y**2))**(1/2)
+print('Complex num is {} and its mod is {}'.format(c,r))
